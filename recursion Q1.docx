@@ -1,0 +1,30 @@
+recursion Q1
+a (i))
+	1*mystery1(1,9);
+		1*9*mystery1(1,8);
+			1*9*8*mystery1(1, 7);
+				1*9*8*7*mystery1(1, 6);
+					1*9*8*7*6*mystery1(1, 5);
+						1*9*8*7*6*5*mystery1(1, 4);
+							1*9*8*7*6*5*4*mystery1(1, 3);
+								1*9*8*7*6*5*4*3*mystery1(1, 2);
+									1*9*8*7*6*5*4*3*2*mystery1(1, 1);
+										1*9*8*7*6*5*4*3*2*1=362880
+
+ (ii)
+	4*mystery1(4,2);
+		4*2*mystery1(4,1);
+			4*2*1= 8
+
+ (iii)
+	2*mystery(2,5);
+		2*5*mystery(2,4);
+			2*5*4mystery(2,3);
+				2*4*5*mystery(2,2);
+					2*5*4*3*2mystery(2,1);
+						2*5*4*3*2*1=240
+
+
+b) the recursion will be working on the multiplication of the variable a with factorial of the of b.
+
+
